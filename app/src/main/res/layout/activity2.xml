@@ -20,7 +20,6 @@
         app:layout_constraintVertical_bias="0.389" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/nameInputfield"
         android:layout_width="201dp"
         android:layout_height="40dp"
         android:inputType="text"
@@ -45,7 +44,6 @@
         app:layout_constraintVertical_bias="0.465" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/emailinputfield"
         android:layout_width="202dp"
         android:layout_height="33dp"
         android:inputType="textEmailAddress"
@@ -70,7 +68,6 @@
         app:layout_constraintVertical_bias="0.552" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/numberinputfield"
         android:layout_width="202dp"
         android:layout_height="33dp"
         android:inputType="number"
@@ -95,7 +92,7 @@
         app:layout_constraintVertical_bias="0.626" />
 
     <CheckBox
-        android:id="@+id/cscheckBox"
+        android:id="@+id/checkBox"
         android:layout_width="65dp"
         android:layout_height="30dp"
         android:text="CS"
@@ -107,7 +104,7 @@
         app:layout_constraintVertical_bias="0.626" />
 
     <CheckBox
-        android:id="@+id/cyscheckBox2"
+        android:id="@+id/checkBox2"
         android:layout_width="65dp"
         android:layout_height="30dp"
         android:text="CYS"
@@ -119,7 +116,7 @@
         app:layout_constraintVertical_bias="0.626" />
 
     <CheckBox
-        android:id="@+id/avmcheckBox3"
+        android:id="@+id/checkBox3"
         android:layout_width="65dp"
         android:layout_height="30dp"
         android:text="AVM"
@@ -143,8 +140,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.704" />
 
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="202dp"
+        android:layout_height="33dp"
+        android:max="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703" />
+
     <Button
-        android:id="@+id/submitbutton"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submitt
@@ -154,7 +163,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.847" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -167,44 +176,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.093"
         app:srcCompat="@drawable/transparent_star_shape_flat_black_star_lacking_details_uninspiring_mean65ee9664618cd3_0448293417101348843996" />
-
-    <SeekBar
-        android:id="@+id/experienceseekBar"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="201dp"
-        android:layout_height="32dp"
-        android:max="5"
-        android:progress="0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.771"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Domain"
-        android:textSize="22dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774" />
-
-    <Spinner
-        android:id="@+id/domainspinner"
-        android:layout_width="202dp"
-        android:layout_height="33dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.775"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
