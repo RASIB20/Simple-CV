@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("email",email.text.toString())
             intent.putExtra("phone",phone.text.toString())
             intent.putExtra("experience",exp)
+            intent.putExtra("finalDegree",checkedItemsText)
             intent.putExtra("domain",checkedItemsText)
             startActivity(intent)
         }
